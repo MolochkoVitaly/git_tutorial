@@ -26,6 +26,10 @@ export class HeroSearchComponent implements OnInit {
   search(term: string): void {
     this.searchTerms.next(term);
   }
+  
+  searchByParam(param: string): void {
+	  TODO: need implementation
+  }
 
   ngOnInit(): void {
     this.heroes$ = this.searchTerms.pipe(

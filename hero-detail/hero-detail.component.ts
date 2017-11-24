@@ -33,6 +33,10 @@ export class HeroDetailComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
+  
+  goOnMainPape(): void {
+	  TODO: need implementation
+  }
 
   save(): void {
     this.heroService.updateHero(this.hero)
